@@ -1,0 +1,17 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "G:/uart1/uart3_isim_beh.exe" -prj "G:/uart1/uart3_beh.prj" "work.uart3" "work.glbl" 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "G:/uart1/uart3.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.1/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1007 - "G:/uart1/uart3.v" Line 120: Element index 8 into uart_dat_i_r is out of bounds
+Completed static elaboration
+Compiling module uart3
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 2 Verilog Units
+Built simulation executable G:/uart1/uart3_isim_beh.exe
+Fuse Memory Usage: 27608 KB
+Fuse CPU Usage: 1578 ms

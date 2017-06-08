@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1007" delta="unknown" >"G:/uart1/uart3.v" Line 120: Element index <arg fmt="%d" index="1">8</arg> into <arg fmt="%s" index="2">uart_dat_i_r</arg> is out of bounds
+</msg>
+
+</messages>
+

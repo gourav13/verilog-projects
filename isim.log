@@ -1,0 +1,117 @@
+ISim log file
+Running: G:\uart1\uart3_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb G:/uart1/uart3_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.15xf (signature 0xc3576ebc)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /uart3/sys_rst_i 1 -radix bin
+# isim force add /uart3/sys_rst_i_r 1 -radix bin
+# isim force add /uart3/sys_clk_i 1 -radix bin -value 1 -radix bin -time 7 ns -repeat 14 ns
+# run 1.00us
+# run 1.00us
+# run 1.00us
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.15xf (signature 0xc3576ebc)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /uart3/sys_clk_i 1 -radix bin -value 0 -radix bin -time 7 ns -repeat 14 ns
+# isim force add /uart3/sys_rst_i 1 -radix bin
+# isim force add /uart3/sys_rst_i_r 1 -radix bin
+# run 1.00us
+# isim force add /uart3/sys_rst_i 0 -radix bin
+# isim force add /uart3/sys_rst_i_r 0 -radix bin
+# isim force add /uart3/uart_wr_i 1 -radix bin
+# isim force add /uart3/uart_wr_i_r 1 -radix bin
+# isim force add /uart3/uart_dat_i 10101010 -radix bin
+# run 1.00us
+# isim force add /uart3/ser_clk 1 -radix bin -value 0 -radix bin -time 14 ns -repeat 28 ns
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.15xf (signature 0xc3576ebc)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# isim force add /uart3/sys_clk_i 1 -radix bin -value 0 -radix bin -time 7 ns -repeat 14 ns
+# isim force add /uart3/sys_rst_i 1 -radix bin
+# isim force add /uart3/sys_rst_i_r 1 -radix bin
+# run 1.00us
+# isim force add /uart3/sys_clk_i 0 -radix bin
+# isim force add /uart3/sys_clk_i 1 -radix bin -value 0 -radix bin -time 7 ns -repeat 14 ns
+# isim force add /uart3/sys_rst_i 0 -radix bin
+# isim force add /uart3/sys_rst_i_r 0 -radix bin
+# isim force add /uart3/uart_wr_i 1 -radix bin
+# isim force add /uart3/uart_wr_i_r 1 -radix bin
+# isim force add /uart3/uart_dat_i 10101010 -radix bin
+# isim force add /uart3/ser_clk 1 -radix bin -value 0 -radix bin -time 14 ns -repeat 28 ns
+# isim force add /uart3/uart_wr_i_r 1 -radix bin
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
+# run 1.00us
